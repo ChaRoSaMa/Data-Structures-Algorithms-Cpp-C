@@ -130,3 +130,11 @@ int at_Array(DynamicArray_C *array, int pos)
 
     return array->pAddr[pos];
 }
+
+void printInfo_Array(DynamicArray_C *array)
+{
+    if(!array) return;
+
+    printf("capacity: %d \n", array->capacity);
+    printf("size: %d \n", array->size);
+}

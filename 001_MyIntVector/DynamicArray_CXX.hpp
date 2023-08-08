@@ -1,24 +1,28 @@
-#ifndef DYNAMICARRAY_H
-#define DYNAMICARRAY_H
+#ifndef DYNAMICARRAY_CXX_H
+#define DYNAMICARRAY_CXX_H
 
 class DynamicArray_CXX {
     // implementation for C++
+public: // to a
     DynamicArray_CXX();
+    ~DynamicArray_CXX();
     void pushBack(int ele);
     void removeByPos(int pos);
     void removeByValue(int value);
     int  find(int value);
-    void free();
     void clear();
-    int  get_capacity();
-    int  get_size();
+    int  capacity();
+    int  size();
     int  at(int pos);
+    void print();
+    void printInfo();
 
-    int *pAddr;
-    int  size;
-    int  capacity;
+private:
+    int *m_pAddr = nullptr;
+    int  m_size = 0;
+    int  m_capacity = 20;
 };
 
 
 
-#endif // DYNAMICARRAY_H
+#endif // DYNAMICARRAY_CXX_H

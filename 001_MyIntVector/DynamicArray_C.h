@@ -46,5 +46,6 @@ void print_Array(DynamicArray_C* array);
 int  get_capacity_Array(DynamicArray_C* array);
 int  get_size_Array(DynamicArray_C* array);
 int  at_Array(DynamicArray_C* array, int pos);
+void printInfo_Array(DynamicArray_C* array);
 
 #endif // DYNAMICARRAY_H
