@@ -1,8 +1,0 @@
-# ninja log v5
-1	721	1691456635831642649	CMakeFiles/001_MyIntVector.dir/main.cpp.o	10b5fa1d6cef49ae
-21	102	1691459701561946400	001_MyIntVector	2610cc94ba52bef9
-1	20	1691457896967037657	CMakeFiles/001_MyIntVector.dir/dynamicarray.cpp.o	1bbd628b8a762eaf
-2	22	1691460057638664436	CMakeFiles/001_MyIntVector.dir/dynamicarray.cc.o	dc154ad7d6bfc5ca
-2	21	1691460443155753352	CMakeFiles/001_MyIntVector.dir/dynamicarray.cc.o	dc154ad7d6bfc5ca
-1	43	1691460497772482558	CMakeFiles/001_MyIntVector.dir/dynamicarray.c.o	56e656afef3f65b1
-43	116	1691460497845815972	001_MyIntVector	6a9672ad40fc5c42

@@ -42,6 +42,9 @@ void removeByValue_Array(DynamicArray_C* array, int value);
 int  find_Array(DynamicArray_C* array, int value);
 void free_Array(DynamicArray_C* array);
 void clear_Array(DynamicArray_C* array);
+void print_Array(DynamicArray_C* array);
 int  get_capacity_Array(DynamicArray_C* array);
+int  get_size_Array(DynamicArray_C* array);
+int  at_Array(DynamicArray_C* array, int pos);
 
 #endif // DYNAMICARRAY_H

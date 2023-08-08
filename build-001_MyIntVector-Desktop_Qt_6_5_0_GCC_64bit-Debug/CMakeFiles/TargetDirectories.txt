@@ -1,7 +1,0 @@
-/home/CharSaMa/Programs/Projects/Data-Structures-Algorithms-Cpp/build-001_MyIntVector-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/001_MyIntVector.dir
-/home/CharSaMa/Programs/Projects/Data-Structures-Algorithms-Cpp/build-001_MyIntVector-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
-/home/CharSaMa/Programs/Projects/Data-Structures-Algorithms-Cpp/build-001_MyIntVector-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
-/home/CharSaMa/Programs/Projects/Data-Structures-Algorithms-Cpp/build-001_MyIntVector-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/list_install_components.dir
-/home/CharSaMa/Programs/Projects/Data-Structures-Algorithms-Cpp/build-001_MyIntVector-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/install.dir
-/home/CharSaMa/Programs/Projects/Data-Structures-Algorithms-Cpp/build-001_MyIntVector-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/install/local.dir
-/home/CharSaMa/Programs/Projects/Data-Structures-Algorithms-Cpp/build-001_MyIntVector-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/install/strip.dir
