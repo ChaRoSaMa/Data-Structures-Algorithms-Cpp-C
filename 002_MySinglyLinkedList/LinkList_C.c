@@ -27,9 +27,9 @@ LinkNode_C *at_LinkList(LinkList_C *list, int pos)
 
 void insert_LinkList(LinkList_C *list, int pos, void *data)
 {
-    if(!list || data == NULL) return;
+    if(!list || data == NULL ) return;
 
-    if(pos < 0 || pos > list->size ) {
+    if((pos - 1) < 0 || pos > list->size ) {
         // in this case we just insert it in the end
         pos = list->size;
     }

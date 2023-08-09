@@ -7,7 +7,7 @@ extern "C" {
 }
 
 
-void printFunc_C(void* data) {
+void printFunc(void* data) {
     std::string *str = (std::string*)data;
     std::cout << *str << " ";
 }
@@ -26,7 +26,7 @@ void test_C() {
 //    removeByPos_LinkList(list, 1);
     std::cout << find_LinkList(list, str) << std::endl;
 
-    print_LinkList(list, printFunc_C);
+    print_LinkList(list, printFunc);
     std::cout << std::endl;
     printInfo_LinkList(list);
 
@@ -35,13 +35,27 @@ void test_C() {
 }
 
 void test_CXX() {
+    LinkList_CXX *list = new LinkList_CXX;
+    std::string *str  = new std::string("I");
+    std::string *str1 = new std::string("love");
+    std::string *str2 = new std::string("programming");
+    list->head()->data = (void*)str;
+    list->insert(1, (void*)str1);
+    list->insert(2, (void*)str2);
 
+//    list->removeByPos(1);
+
+    list->print(printFunc);
+    std::cout << std::endl;
+    list->printInfo();
+
+    delete list;
 }
 
 int main()
 {
 
-    test_C();
+    test_CXX();
 
     return 0;
 }
